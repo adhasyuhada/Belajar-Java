@@ -1,9 +1,0 @@
-package package1;
-
-AksesLevelClassA{ //berada di package1 dengan default class yang hanya bisa diakses oleh package yg sama
-  int a = 10;
-  
-  public static void main(String[] args){
-  System.out.println(a);
-  }
-}
