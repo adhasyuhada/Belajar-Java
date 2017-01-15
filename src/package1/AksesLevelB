@@ -1,0 +1,9 @@
+package packag1;
+
+class AksesLevelB {
+    int b = 20;
+    public static void main(String[] args){
+        AksesLevelA obj1 = new AksesLevelA();
+        System.out.println(obj1.a);     //variable yang berada di AksesClassA a = 10
+    }
+}
