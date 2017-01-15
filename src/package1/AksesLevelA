@@ -1,0 +1,11 @@
+package packag1;
+
+class AksesLevelC {
+    int c = 30;
+    
+}
+
+public class AksesLevelA{ //akses public agar dapat diakses dari luar package
+    int a = 10; //default akses variable tidak bisa diakses dari laur package
+    public int aa = 11; //akses variable public agar bisa diakses dari luar package
+}
