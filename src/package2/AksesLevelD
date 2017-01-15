@@ -1,0 +1,11 @@
+package package2;
+
+import packag1.AksesLevelA;
+
+class AksesLevelD{
+    public static void main(String[] args){
+        AksesLevelA obj1 =  new AksesLevelA();
+        System.out.println(obj1.aa); //variable yang berada di AksesClassA denga akses variable public agar bisa 
+                                    //diakses dari luar package
+    }    
+}
