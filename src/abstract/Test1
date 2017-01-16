@@ -1,0 +1,14 @@
+package abstract;
+
+/**
+ *
+ * @author anonim
+ */
+public abstract class Test1 {
+    
+    abstract void Jalan();  
+    
+    abstract void Speak();
+    
+    abstract void Jump();  
+}
