@@ -1,0 +1,32 @@
+package abstract;
+
+/**
+ *
+ * @author anonim
+ */
+public class Test extends Test1{
+    
+    public static void main(String[] args){
+        Test1 obj1 = new Test();
+        obj1.Jalan();
+        obj1.Speak();
+        obj1.Jump();
+        
+    }
+    
+    @Override
+    void Jalan(){
+        System.out.println("prok prok");
+    }
+
+    @Override
+    void Speak() {
+        System.out.println("halo guys!!!");
+    }
+
+    @Override
+    void Jump() {
+        System.out.println("brug brug");
+    }
+
+}
