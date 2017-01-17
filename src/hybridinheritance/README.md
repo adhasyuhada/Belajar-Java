@@ -1,6 +1,4 @@
-Hybird inheritance adalah inheritance dapat di implementasikan menggunakan interface di java
-dikarenakan java tidak mendukung multiple inheritance jika di implementasikan menggunakan class maka hasilnya akan error
-berikut design implementasi hybrid inheritance
+Hybird inheritance dapat di implementasikan menggunakan interface di java, dikarenakan java tidak mendukung multiple inheritance jika di implementasikan menggunakan class maka hasilnya akan error, berikut design implementasi hybrid inheritance
 
 ![Hybrid Inheritance](/src/hybridinheritance/hybridinheritance.png)
 pada diagram diatas interface A sebagai parent sedangkan interface B dan C child dari interface A lalu kedua interface tesebut
