@@ -1,5 +1,5 @@
 class Data{
-    private String name; //variabl private hanya bisa diakses di classnya sendiri
+    private String name; //variable private hanya bisa diakses di classnya sendiri
     private int nim; //variable private tidak bisa diakses di luar class
     
     public void setNim(int yournim){ //method return public untuk user dari luar kelas agar dapat mengakses memberikan nilai pada variable private 
