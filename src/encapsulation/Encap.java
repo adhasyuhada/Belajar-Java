@@ -10,11 +10,11 @@ class Data{
         name = yourname;
     }
     
-    public String getName(){
+    public String getName(){ 
         return name;
     }
     
-    public int getNim(){
+    public int getNim(){ //method return variable nim yang mempunyai nilai yang di input oleh user
         return nim;
     }
 
