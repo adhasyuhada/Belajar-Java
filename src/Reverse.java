@@ -5,7 +5,7 @@ public class Reverse {
 		String input = "";
 		System.out.println("Masukan keyword yang akan dibalik :");
 		try{
-			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			java.io.BufferedReader br = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
 			input = br.readLine();
 			char[] try1 = input.toCharArray();
 			for (int i=try1.length-1;i>=0;i--)
